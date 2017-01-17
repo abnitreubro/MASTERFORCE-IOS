@@ -127,6 +127,8 @@
 		4C78624C1C99374100565805 /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C78624B1C99374100565805 /* libiconv.tbd */; };
 		4C78624E1C99374800565805 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C78624D1C99374800565805 /* libz.tbd */; };
 		4C7862501C99374F00565805 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C78624F1C99374F00565805 /* libsqlite3.tbd */; };
+		4C9A58AE1E28A577003E31DA /* 65207_mf_mx1020_manual-electronic_v18.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4C9A58AC1E28A577003E31DA /* 65207_mf_mx1020_manual-electronic_v18.pdf */; };
+		4C9A58AF1E28A577003E31DA /* 65259_mf_mx1021_manual-electronic_v16.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4C9A58AD1E28A577003E31DA /* 65259_mf_mx1021_manual-electronic_v16.pdf */; };
 		64B193DE1C970F2300E32BBA /* libiborescope.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 64B193DD1C970F2300E32BBA /* libiborescope.a */; };
 		B7085AC916B380C000C86261 /* PhoneRecordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7085AC716B380C000C86261 /* PhoneRecordViewController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		B7085ACA16B380C000C86261 /* PhoneRecordViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B7085AC816B380C000C86261 /* PhoneRecordViewController.xib */; };
@@ -372,6 +374,8 @@
 		4C78624B1C99374100565805 /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
 		4C78624D1C99374800565805 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		4C78624F1C99374F00565805 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		4C9A58AC1E28A577003E31DA /* 65207_mf_mx1020_manual-electronic_v18.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "65207_mf_mx1020_manual-electronic_v18.pdf"; sourceTree = "<group>"; };
+		4C9A58AD1E28A577003E31DA /* 65259_mf_mx1021_manual-electronic_v16.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "65259_mf_mx1021_manual-electronic_v16.pdf"; sourceTree = "<group>"; };
 		64B193DD1C970F2300E32BBA /* libiborescope.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libiborescope.a; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* P2PCamera-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "P2PCamera-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 		B7085AC616B380C000C86261 /* PhoneRecordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhoneRecordViewController.h; sourceTree = "<group>"; };
@@ -762,6 +766,7 @@
 				1917D1691CBBA6DE00E84B1D /* LaunchScreen.storyboard */,
 				1917D16B1CBBA6DE00E84B1D /* Main.storyboard */,
 				1917D1731CBBA6DE00E84B1D /* Constant.h */,
+				4C9A58AB1E28A577003E31DA /* Manuals */,
 				1917D17C1CBBA6DE00E84B1D /* Images */,
 			);
 			path = VideoScope;
@@ -942,6 +947,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		4C9A58AB1E28A577003E31DA /* Manuals */ = {
+			isa = PBXGroup;
+			children = (
+				4C9A58AC1E28A577003E31DA /* 65207_mf_mx1020_manual-electronic_v18.pdf */,
+				4C9A58AD1E28A577003E31DA /* 65259_mf_mx1021_manual-electronic_v16.pdf */,
+			);
+			path = Manuals;
+			sourceTree = "<group>";
+		};
 		B7D891DD1670685C0087CE9D /* res */ = {
 			isa = PBXGroup;
 			children = (
@@ -1034,6 +1048,7 @@
 				1917D1F61CBBA6DF00E84B1D /* success.png in Resources */,
 				19707E8C1CD8672000919BB3 /* Plus 2.png in Resources */,
 				19707E901CD867A800919BB3 /* Square.png in Resources */,
+				4C9A58AE1E28A577003E31DA /* 65207_mf_mx1020_manual-electronic_v18.pdf in Resources */,
 				1917D2051CBBA6DF00E84B1D /* xiangji.png in Resources */,
 				19B6BA5E1DD1DD29004F1485 /* DeSelectAll.png in Resources */,
 				B7585F8718D9757300699355 /* delete.png in Resources */,
@@ -1083,6 +1098,7 @@
 				B7D891E2167068780087CE9D /* Shader.fsh in Resources */,
 				B7585F7D18D96F3300699355 /* PicListIpadCell.xib in Resources */,
 				B7D1DE30167081C800136437 /* CustomGLView.xib in Resources */,
+				4C9A58AF1E28A577003E31DA /* 65259_mf_mx1021_manual-electronic_v16.pdf in Resources */,
 				B7D869A7167ADA3A0057C00F /* RemoteRecordFileListViewController.xib in Resources */,
 				B7659689167C201D00105FA5 /* RemotePlaybackViewController.xib in Resources */,
 				1917D1F91CBBA6DF00E84B1D /* tkContact_uncheckBox.png in Resources */,
@@ -1254,7 +1270,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.reubro.menards;
 				PRODUCT_NAME = P2PCamera;
-				PROVISIONING_PROFILE = "4abaefc0-a807-464a-80c0-24b00bfd30ec";
+				PROVISIONING_PROFILE = "fe4ecd9d-cb0e-4aac-ac80-a3975ad9fd09";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "fe4ecd9d-cb0e-4aac-ac80-a3975ad9fd09";
 				PROVISIONING_PROFILE_SPECIFIER = Menards_Adhoc_July19_2016;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1338,7 +1354,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.reubro.menards;
 				PRODUCT_NAME = P2PCamera;
-				PROVISIONING_PROFILE = "4abaefc0-a807-464a-80c0-24b00bfd30ec";
+				PROVISIONING_PROFILE = "fe4ecd9d-cb0e-4aac-ac80-a3975ad9fd09";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "fe4ecd9d-cb0e-4aac-ac80-a3975ad9fd09";
 				PROVISIONING_PROFILE_SPECIFIER = Menards_Adhoc_July19_2016;
 				TARGETED_DEVICE_FAMILY = "1,2";

@@ -966,7 +966,7 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Classes/VideoScope/AppDelegate.m"
@@ -1007,8 +1007,8 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "214"
             endingLineNumber = "214"
-            landmarkName = "-tableView:didSelectRowAtIndexPath:"
-            landmarkType = "5">
+            landmarkName = "-tableView:cellForRowAtIndexPath:"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -1023,8 +1023,8 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "235"
             endingLineNumber = "235"
-            landmarkName = "-tableView:heightForRowAtIndexPath:"
-            landmarkType = "5">
+            landmarkName = "-tableView:didSelectRowAtIndexPath:"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -1152,6 +1152,84 @@
             startingLineNumber = "743"
             endingLineNumber = "743"
             landmarkName = "-recordVideo:"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__43-[CameraPreviewViewController recordVideo:]_block_invoke_2"
+                  moduleName = "P2PCamera"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/reubro/Desktop/Desk%20Misc/Abnit/Projects/MasterForce%20VideoScope/MASTERFORCE-IOS/Classes/VideoScope/CameraPreviewViewController.m"
+                  timestampString = "505979540.746356"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "744"
+                  endingLineNumber = "744"
+                  offsetFromSymbolStart = "1670">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__43-[CameraPreviewViewController recordVideo:]_block_invoke_2"
+                  moduleName = "P2PCamera"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/reubro/Desktop/Desk%20Misc/Abnit/Projects/MasterForce%20VideoScope/MASTERFORCE-IOS/Classes/VideoScope/CameraPreviewViewController.m"
+                  timestampString = "505979540.746551"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "744"
+                  endingLineNumber = "744"
+                  offsetFromSymbolStart = "1796">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__copy_helper_block_.366"
+                  moduleName = "P2PCamera"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/reubro/Desktop/Desk%20Misc/Abnit/Projects/MasterForce%20VideoScope/MASTERFORCE-IOS/Classes/VideoScope/CameraPreviewViewController.m"
+                  timestampString = "505979540.74674"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "744"
+                  endingLineNumber = "744"
+                  offsetFromSymbolStart = "34">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__destroy_helper_block_.367"
+                  moduleName = "P2PCamera"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/reubro/Desktop/Desk%20Misc/Abnit/Projects/MasterForce%20VideoScope/MASTERFORCE-IOS/Classes/VideoScope/CameraPreviewViewController.m"
+                  timestampString = "505979540.746924"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "744"
+                  endingLineNumber = "744"
+                  offsetFromSymbolStart = "18">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Classes/VideoScope/ManualViewController.m"
+            timestampString = "505979415.076213"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
+            landmarkName = "-viewDidLoad"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>

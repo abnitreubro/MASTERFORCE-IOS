@@ -8,11 +8,11 @@
 
 #import <UIKit/UIKit.h>
 #import "AboutViewController.h"
-@interface MoreViewController : UITableViewController
+@interface MoreViewController : UITableViewController<UIDocumentInteractionControllerDelegate>
 @property (weak, nonatomic) IBOutlet UIStepper *recordingTimeStepper;
 @property (weak, nonatomic) IBOutlet UISwitch *recordAudioSwitch;
 @property (weak, nonatomic) IBOutlet UILabel *lblRecordingTime;
-
+@property (atomic) UIDocumentInteractionController *documentInteractionController;
 
 
 

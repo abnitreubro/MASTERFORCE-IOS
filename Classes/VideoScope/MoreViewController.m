@@ -57,7 +57,7 @@
 #pragma mark - Table view data source
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
-    return 2;
+    return 3;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
@@ -66,14 +66,67 @@
         return 2;
     
     else if(section== 1)
+        return 2;
+    else if(section== 2)
         return 1;
-    
+
 
     return 0;
 }
 
 
+-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    
+    if (indexPath.section == 1) {
+        
+        if (indexPath.row == 0) {
+            
+            NSURL *URL = [[NSBundle mainBundle] URLForResource:@"65207_mf_mx1020_manual-electronic_v18" withExtension:@"pdf"];
+            
+            if (URL) {
+                // Initialize Document Interaction Controller
+                self.documentInteractionController = [UIDocumentInteractionController interactionControllerWithURL:URL];
+                
+                // Set Document Name Manually which will override the default PDF name in Navigation title
+                self.documentInteractionController.name = @"MX1020 Manual";
+                
+                // Configure Document Interaction Controller
+                [self.documentInteractionController setDelegate:self];
+                
+                // Preview PDF
+                [self.documentInteractionController presentPreviewAnimated:YES];
+                
+            }
+        }
+        if (indexPath.row == 1) {
+            NSURL *URL = [[NSBundle mainBundle] URLForResource:@"65259_mf_mx1021_manual-electronic_v16" withExtension:@"pdf"];
+            
+            if (URL) {
+                // Initialize Document Interaction Controller
+                self.documentInteractionController = [UIDocumentInteractionController interactionControllerWithURL:URL];
+                
+                // Set Document Name Manually which will override the default PDF name in Navigation title
+                self.documentInteractionController.name = @"MX1021 Manual";
 
+                // Configure Document Interaction Controller
+                [self.documentInteractionController setDelegate:self];
+                
+                // Preview PDF
+                [self.documentInteractionController presentPreviewAnimated:YES];
+                
+            }
+
+        }
+
+    }
+    
+}
+
+#pragma mark-  UIDocumentInteractionController Delegate Implemenattion
+
+- (UIViewController *) documentInteractionControllerViewControllerForPreview: (UIDocumentInteractionController *) controller {
+    return self;
+}
 
 
 #pragma mark- Actions from View
@@ -91,7 +144,6 @@
     else
         [[NSUserDefaults standardUserDefaults]setObject:@"0" forKey:ISRECORDAUDIO];// OFF
 }
-
 
 
 

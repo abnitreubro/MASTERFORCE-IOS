@@ -46,8 +46,8 @@
                                     <rect key="frame" x="0.0" y="0.0" width="567" height="99"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kDj-iI-s5p">
-                                            <rect key="frame" x="185" y="10" width="385" height="80"/>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kDj-iI-s5p">
+                                            <rect key="frame" x="185" y="10" width="379" height="80"/>
                                             <string key="text">MX1020 Masterforce™
 Wi-Fi Inspection Camera/Video</string>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -181,33 +181,115 @@ Wi-Fi Inspection Camera/Video</string>
                                     </tableViewCell>
                                 </cells>
                             </tableViewSection>
-                            <tableViewSection headerTitle="OTHER" id="WsW-AC-bqV">
+                            <tableViewSection headerTitle="INSTRUCTIONS/MANUALS" id="WsW-AC-bqV">
                                 <cells>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="Other" textLabel="aMf-xX-xoL" detailTextLabel="zqp-9b-Yf0" style="IBUITableViewCellStyleValue1" id="A7j-fN-REH">
-                                        <rect key="frame" x="0.0" y="202" width="600" height="44"/>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="Other" rowHeight="100" id="A7j-fN-REH">
+                                        <rect key="frame" x="0.0" y="202" width="600" height="100"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="A7j-fN-REH" id="GDx-6g-bEd">
+                                            <rect key="frame" x="0.0" y="0.0" width="567" height="99"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MX1020 Manual" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jmz-zW-GlT">
+                                                    <rect key="frame" x="185" y="39" width="379" height="21"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                    <variation key="heightClass=regular-widthClass=regular">
+                                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                    </variation>
+                                                </label>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="MX1020-200.png" translatesAutoresizingMaskIntoConstraints="NO" id="yCh-G3-Rcu">
+                                                    <rect key="frame" x="5" y="7" width="170" height="85"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" secondItem="yCh-G3-Rcu" secondAttribute="height" multiplier="2:1" id="x0W-lq-MlV"/>
+                                                    </constraints>
+                                                </imageView>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="yCh-G3-Rcu" firstAttribute="width" secondItem="GDx-6g-bEd" secondAttribute="width" multiplier="0.3" id="3Sm-3L-Vnr"/>
+                                                <constraint firstAttribute="trailing" secondItem="jmz-zW-GlT" secondAttribute="trailing" constant="3" id="WI9-6i-APc"/>
+                                                <constraint firstItem="jmz-zW-GlT" firstAttribute="centerY" secondItem="GDx-6g-bEd" secondAttribute="centerY" id="XQX-rJ-CRJ"/>
+                                                <constraint firstItem="yCh-G3-Rcu" firstAttribute="centerY" secondItem="GDx-6g-bEd" secondAttribute="centerY" id="c3f-Jh-wbb"/>
+                                                <constraint firstItem="jmz-zW-GlT" firstAttribute="leading" secondItem="yCh-G3-Rcu" secondAttribute="trailing" constant="10" id="kcH-iU-i1P"/>
+                                                <constraint firstItem="yCh-G3-Rcu" firstAttribute="leading" secondItem="GDx-6g-bEd" secondAttribute="leading" constant="5" id="nPT-DG-aPl"/>
+                                                <constraint firstItem="yCh-G3-Rcu" firstAttribute="width" secondItem="yCh-G3-Rcu" secondAttribute="height" multiplier="2:1" id="x1e-kG-yFm"/>
+                                            </constraints>
+                                            <variation key="default">
+                                                <mask key="constraints">
+                                                    <exclude reference="x1e-kG-yFm"/>
+                                                </mask>
+                                            </variation>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="Other" rowHeight="100" id="OKC-bn-DgU">
+                                        <rect key="frame" x="0.0" y="302" width="600" height="100"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="OKC-bn-DgU" id="eCT-V1-H40">
+                                            <rect key="frame" x="0.0" y="0.0" width="567" height="99"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MX1021 Manual" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yqk-3H-VTN">
+                                                    <rect key="frame" x="185" y="39" width="379" height="21"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                    <variation key="heightClass=regular-widthClass=regular">
+                                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                    </variation>
+                                                </label>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="MX1021-200.png" translatesAutoresizingMaskIntoConstraints="NO" id="qzo-vZ-eXo">
+                                                    <rect key="frame" x="5" y="7" width="170" height="85"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" secondItem="qzo-vZ-eXo" secondAttribute="height" multiplier="2:1" id="Kmn-tr-hDo"/>
+                                                    </constraints>
+                                                </imageView>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="trailing" secondItem="yqk-3H-VTN" secondAttribute="trailing" constant="3" id="5Ci-Zj-1Pl"/>
+                                                <constraint firstItem="yqk-3H-VTN" firstAttribute="centerY" secondItem="eCT-V1-H40" secondAttribute="centerY" id="6Q3-eB-0LO"/>
+                                                <constraint firstItem="qzo-vZ-eXo" firstAttribute="leading" secondItem="eCT-V1-H40" secondAttribute="leading" constant="5" id="DbB-YS-mHM"/>
+                                                <constraint firstItem="yqk-3H-VTN" firstAttribute="leading" secondItem="qzo-vZ-eXo" secondAttribute="trailing" constant="10" id="WaT-9t-aC8"/>
+                                                <constraint firstItem="qzo-vZ-eXo" firstAttribute="centerY" secondItem="eCT-V1-H40" secondAttribute="centerY" id="Yxh-NT-nQT"/>
+                                                <constraint firstItem="qzo-vZ-eXo" firstAttribute="width" secondItem="eCT-V1-H40" secondAttribute="width" multiplier="0.3" id="e0x-eX-kQf"/>
+                                                <constraint firstItem="qzo-vZ-eXo" firstAttribute="width" secondItem="qzo-vZ-eXo" secondAttribute="height" multiplier="2:1" id="tRN-Mc-Rgl"/>
+                                            </constraints>
+                                            <variation key="default">
+                                                <mask key="constraints">
+                                                    <exclude reference="tRN-Mc-Rgl"/>
+                                                </mask>
+                                            </variation>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                            <tableViewSection headerTitle="OTHER" id="Rj8-1s-epH">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="Other" textLabel="hyr-3C-xEn" detailTextLabel="7PA-Cp-NgK" style="IBUITableViewCellStyleValue1" id="NUe-iW-AY4">
+                                        <rect key="frame" x="0.0" y="427" width="600" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="NUe-iW-AY4" id="W0N-Kk-PPt">
                                             <rect key="frame" x="0.0" y="0.0" width="567" height="43"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="About" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="aMf-xX-xoL">
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="About" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="hyr-3C-xEn">
                                                     <rect key="frame" x="15" y="13" width="42" height="19"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="16"/>
                                                     <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="zqp-9b-Yf0">
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="7PA-Cp-NgK">
                                                     <rect key="frame" x="523" y="12" width="42" height="20"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                                    <color key="textColor" red="0.55686274509803924" green="0.55686274509803924" blue="0.57647058823529407" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <color key="textColor" red="0.5568627451" green="0.5568627451" blue="0.57647058819999997" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <segue destination="goM-Ff-PgE" kind="show" id="5AG-3z-sXZ"/>
+                                            <segue destination="goM-Ff-PgE" kind="show" id="XgG-E6-LZ1"/>
                                         </connections>
                                     </tableViewCell>
                                 </cells>
@@ -227,7 +309,7 @@ Wi-Fi Inspection Camera/Video</string>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Cfw-WN-vD9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="679" y="1177"/>
+            <point key="canvasLocation" x="676" y="1128"/>
         </scene>
         <!--About View Controller-->
         <scene sceneID="Tnf-sd-a0q">
@@ -248,7 +330,7 @@ Wi-Fi Inspection Camera/Video</string>
                                     <constraint firstAttribute="height" constant="180" id="dti-b5-nan"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Version 1.3" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9I8-Ha-kre">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Version 1.5" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9I8-Ha-kre">
                                 <rect key="frame" x="224" y="284" width="152" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="UeD-dS-bDI"/>
@@ -348,7 +430,7 @@ Wi-Fi Inspection Camera/Video</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XBJ-1z-yBA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1459" y="1177"/>
+            <point key="canvasLocation" x="676" y="1951"/>
         </scene>
         <!--Display File List View Controller-->
         <scene sceneID="efr-9A-fcv">
@@ -851,8 +933,8 @@ Wi-Fi Inspection Camera/Video</string>
                                     <rect key="frame" x="0.0" y="0.0" width="567" height="99"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="MX1020 Masterforce™ Wi-Fi Inspection Camera/Video" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XzS-sP-a9O">
-                                            <rect key="frame" x="185" y="10" width="385" height="80"/>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MX1020 Masterforce™ Wi-Fi Inspection Camera/Video" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XzS-sP-a9O">
+                                            <rect key="frame" x="185" y="10" width="381" height="80"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
@@ -963,6 +1045,8 @@ Wi-Fi Inspection Camera/Video</string>
         <image name="Camera_NotClicked.png" width="44" height="43"/>
         <image name="LeftRotate.png" width="138" height="123"/>
         <image name="MASTERFORCE ICON 1024 x 1024.PNG" width="512" height="512"/>
+        <image name="MX1020-200.png" width="398" height="200"/>
+        <image name="MX1021-200.png" width="398" height="200"/>
         <image name="Play.png" width="169" height="170"/>
         <image name="Plus 2.png" width="512" height="512"/>
         <image name="Square.png" width="153" height="154"/>
