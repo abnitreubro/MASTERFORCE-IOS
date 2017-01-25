@@ -16,7 +16,7 @@
             startingLineNumber = "301"
             endingLineNumber = "301"
             landmarkName = "-dealloc"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -32,7 +32,7 @@
             startingLineNumber = "91"
             endingLineNumber = "91"
             landmarkName = "-viewDidLoad"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -48,7 +48,7 @@
             startingLineNumber = "86"
             endingLineNumber = "86"
             landmarkName = "-viewDidLoad"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -64,7 +64,7 @@
             startingLineNumber = "96"
             endingLineNumber = "96"
             landmarkName = "-viewDidLoad"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -80,7 +80,7 @@
             startingLineNumber = "101"
             endingLineNumber = "101"
             landmarkName = "-viewDidLoad"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -96,7 +96,7 @@
             startingLineNumber = "106"
             endingLineNumber = "106"
             landmarkName = "-viewDidLoad"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -112,7 +112,7 @@
             startingLineNumber = "120"
             endingLineNumber = "120"
             landmarkName = "-viewDidLoad"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -128,7 +128,7 @@
             startingLineNumber = "141"
             endingLineNumber = "141"
             landmarkName = "-viewDidLoad"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -144,7 +144,7 @@
             startingLineNumber = "162"
             endingLineNumber = "162"
             landmarkName = "-viewDidLoad"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -176,7 +176,7 @@
             startingLineNumber = "276"
             endingLineNumber = "276"
             landmarkName = "-EnterBackground"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -192,7 +192,7 @@
             startingLineNumber = "290"
             endingLineNumber = "290"
             landmarkName = "-didReceiveMemoryWarning"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -240,7 +240,7 @@
             startingLineNumber = "480"
             endingLineNumber = "480"
             landmarkName = "-updateRecordTime"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -256,7 +256,7 @@
             startingLineNumber = "492"
             endingLineNumber = "492"
             landmarkName = "-updateRecordTime"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -288,7 +288,7 @@
             startingLineNumber = "520"
             endingLineNumber = "520"
             landmarkName = "-image:didFinishSavingWithError:contextInfo:"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -304,7 +304,7 @@
             startingLineNumber = "535"
             endingLineNumber = "535"
             landmarkName = "-btnSnapshot:"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -320,7 +320,7 @@
             startingLineNumber = "560"
             endingLineNumber = "560"
             landmarkName = "-btnSnapshot:"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -336,7 +336,7 @@
             startingLineNumber = "637"
             endingLineNumber = "637"
             landmarkName = "-hideProgress:"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -352,7 +352,7 @@
             startingLineNumber = "660"
             endingLineNumber = "660"
             landmarkName = "-handleTimer:"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -367,8 +367,8 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "680"
             endingLineNumber = "680"
-            landmarkName = "-updateTimeout:"
-            landmarkType = "5">
+            landmarkName = "-updateImage:"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -383,8 +383,8 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "697"
             endingLineNumber = "697"
-            landmarkName = "@implementation PlayViewController"
-            landmarkType = "3">
+            landmarkName = "-updateTimestamp"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -399,8 +399,8 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "848"
             endingLineNumber = "848"
-            landmarkName = "-StopPPPPByDID:"
-            landmarkType = "5">
+            landmarkName = "@implementation PlayViewController"
+            landmarkType = "3">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -416,7 +416,7 @@
             startingLineNumber = "886"
             endingLineNumber = "886"
             landmarkName = "-updateDeviceStatus:"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -432,7 +432,7 @@
             startingLineNumber = "910"
             endingLineNumber = "910"
             landmarkName = "-getLivestream"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -448,7 +448,7 @@
             startingLineNumber = "970"
             endingLineNumber = "970"
             landmarkName = "-ParamNotify:params:"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -463,8 +463,8 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "1010"
             endingLineNumber = "1010"
-            landmarkName = "-stopRecordForMemoryOver"
-            landmarkType = "5">
+            landmarkName = "@implementation PlayViewController"
+            landmarkType = "3">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -479,8 +479,8 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "1051"
             endingLineNumber = "1051"
-            landmarkName = "-H264Data:length:type:timestamp:"
-            landmarkType = "5">
+            landmarkName = "@implementation PlayViewController"
+            landmarkType = "3">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -496,7 +496,7 @@
             startingLineNumber = "1293"
             endingLineNumber = "1293"
             landmarkName = "-recordVideo:"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -512,7 +512,7 @@
             startingLineNumber = "1307"
             endingLineNumber = "1307"
             landmarkName = "-recordVideo:"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -528,7 +528,7 @@
             startingLineNumber = "1313"
             endingLineNumber = "1313"
             landmarkName = "-recordVideo:"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -544,7 +544,7 @@
             startingLineNumber = "1331"
             endingLineNumber = "1331"
             landmarkName = "-recordVideo:"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -560,7 +560,7 @@
             startingLineNumber = "1337"
             endingLineNumber = "1337"
             landmarkName = "-recordVideo:"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -576,7 +576,7 @@
             startingLineNumber = "1416"
             endingLineNumber = "1416"
             landmarkName = "-recordVideo:"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -592,7 +592,7 @@
             startingLineNumber = "1424"
             endingLineNumber = "1424"
             landmarkName = "-recordVideo:"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -608,7 +608,7 @@
             startingLineNumber = "1528"
             endingLineNumber = "1528"
             landmarkName = "-createWriter"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -624,7 +624,7 @@
             startingLineNumber = "1548"
             endingLineNumber = "1548"
             landmarkName = "-createWriter"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -640,7 +640,7 @@
             startingLineNumber = "1876"
             endingLineNumber = "1876"
             landmarkName = "-initializeAudioRecorder"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -656,7 +656,7 @@
             startingLineNumber = "1971"
             endingLineNumber = "1971"
             landmarkName = "-mergeAndSave"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -671,8 +671,8 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "2050"
             endingLineNumber = "2050"
-            landmarkName = "-formattedTime:"
-            landmarkType = "5">
+            landmarkName = "@implementation PlayViewController"
+            landmarkType = "3">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -687,8 +687,8 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "2053"
             endingLineNumber = "2053"
-            landmarkName = "-formattedTime:"
-            landmarkType = "5">
+            landmarkName = "-timeOutAlertMessagePopOut:"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -704,7 +704,7 @@
             startingLineNumber = "2072"
             endingLineNumber = "2072"
             landmarkName = "-timeOutAlertMessagePopOut:"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -719,8 +719,8 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "2095"
             endingLineNumber = "2095"
-            landmarkName = "@implementation PlayViewController"
-            landmarkType = "3">
+            landmarkName = "-setUpScrolling"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -736,7 +736,7 @@
             startingLineNumber = "2098"
             endingLineNumber = "2098"
             landmarkName = "-setUpScrolling"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -751,8 +751,8 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "2108"
             endingLineNumber = "2108"
-            landmarkName = "-setUpScrolling"
-            landmarkType = "5">
+            landmarkName = "-actionResetButton:"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -767,8 +767,8 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "2147"
             endingLineNumber = "2147"
-            landmarkName = "-actionZoomIn:"
-            landmarkType = "5">
+            landmarkName = "-actionZoomOut:"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -783,8 +783,8 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "2180"
             endingLineNumber = "2180"
-            landmarkName = "-actionLeftRtate:"
-            landmarkType = "5">
+            landmarkName = "@implementation PlayViewController"
+            landmarkType = "3">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -800,7 +800,7 @@
             startingLineNumber = "2220"
             endingLineNumber = "2220"
             landmarkName = "-willRotateToInterfaceOrientation:duration:"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -815,8 +815,8 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "2365"
             endingLineNumber = "2365"
-            landmarkName = "-changeToVideo"
-            landmarkType = "5">
+            landmarkName = "@implementation PlayViewController"
+            landmarkType = "3">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -832,7 +832,7 @@
             startingLineNumber = "1658"
             endingLineNumber = "1658"
             landmarkName = "-writeImageAsMovie:toPath:size:"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -848,7 +848,7 @@
             startingLineNumber = "979"
             endingLineNumber = "979"
             landmarkName = "-ParamNotify:params:"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -864,7 +864,7 @@
             startingLineNumber = "173"
             endingLineNumber = "173"
             landmarkName = "-viewDidLoad"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -1040,7 +1040,7 @@
             startingLineNumber = "1550"
             endingLineNumber = "1550"
             landmarkName = "-createWriter"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -1056,7 +1056,7 @@
             startingLineNumber = "564"
             endingLineNumber = "564"
             landmarkName = "-btnSnapshot:"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -1072,7 +1072,7 @@
             startingLineNumber = "1585"
             endingLineNumber = "1585"
             landmarkName = "-createWriter"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -1088,7 +1088,7 @@
             startingLineNumber = "175"
             endingLineNumber = "175"
             landmarkName = "-viewDidLoad"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy

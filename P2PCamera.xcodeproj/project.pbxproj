@@ -1233,8 +1233,8 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
-				PROVISIONING_PROFILE = "fe4ecd9d-cb0e-4aac-ac80-a3975ad9fd09";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "fe4ecd9d-cb0e-4aac-ac80-a3975ad9fd09";
+				PROVISIONING_PROFILE = "7aeff32d-b06a-4f06-ac6f-54f6779e02fb";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "7aeff32d-b06a-4f06-ac6f-54f6779e02fb";
 				SDKROOT = iphoneos;
 			};
 			name = distribute;
@@ -1270,9 +1270,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.reubro.menards;
 				PRODUCT_NAME = P2PCamera;
-				PROVISIONING_PROFILE = "fe4ecd9d-cb0e-4aac-ac80-a3975ad9fd09";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "fe4ecd9d-cb0e-4aac-ac80-a3975ad9fd09";
-				PROVISIONING_PROFILE_SPECIFIER = Menards_Adhoc_July19_2016;
+				PROVISIONING_PROFILE = "7aeff32d-b06a-4f06-ac6f-54f6779e02fb";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "7aeff32d-b06a-4f06-ac6f-54f6779e02fb";
+				PROVISIONING_PROFILE_SPECIFIER = Menards_Adhoc_Sep16_2016;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VALID_ARCHS = "arm64 armv7";
@@ -1354,9 +1354,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.reubro.menards;
 				PRODUCT_NAME = P2PCamera;
-				PROVISIONING_PROFILE = "fe4ecd9d-cb0e-4aac-ac80-a3975ad9fd09";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "fe4ecd9d-cb0e-4aac-ac80-a3975ad9fd09";
-				PROVISIONING_PROFILE_SPECIFIER = Menards_Adhoc_July19_2016;
+				PROVISIONING_PROFILE = "7aeff32d-b06a-4f06-ac6f-54f6779e02fb";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "7aeff32d-b06a-4f06-ac6f-54f6779e02fb";
+				PROVISIONING_PROFILE_SPECIFIER = Menards_Adhoc_Sep16_2016;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VALID_ARCHS = "arm64 armv7";
@@ -1391,7 +1391,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
-				PROVISIONING_PROFILE = "fe4ecd9d-cb0e-4aac-ac80-a3975ad9fd09";
+				PROVISIONING_PROFILE = "7aeff32d-b06a-4f06-ac6f-54f6779e02fb";
 				SDKROOT = iphoneos;
 			};
 			name = Release;
